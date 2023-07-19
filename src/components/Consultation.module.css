@@ -1,0 +1,21 @@
+.title {
+    background-color: blue;
+    color: white;
+    padding: 1px;
+    text-align: left;
+    }
+
+.box {
+    margin: 0px;
+    
+}   
+.Numbers {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    background-color: white;
+
+    
+} 
+.procentai {
+    margin: auto;
+}

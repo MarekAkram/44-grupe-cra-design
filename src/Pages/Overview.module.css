@@ -1,0 +1,16 @@
+.page {
+  margin: 20px;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: left;
+}
+
+.squares {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+  gap: 30px;
+
+}
