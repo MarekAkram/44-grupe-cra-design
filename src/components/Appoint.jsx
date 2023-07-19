@@ -1,3 +1,4 @@
+import graph from '../img/graph.png'
 import style from "./Appoint.module.css";
 function Appoint() {
   return (
@@ -6,7 +7,7 @@ function Appoint() {
         <h2>Appointments</h2>
       </div>
       <div className={style.Numbers}>
-        <img src="" alt=""></img>
+        <img className={style.graph} src={graph} alt='graph' />
         <div>
           <p>150</p>
           <span>Todays</span>

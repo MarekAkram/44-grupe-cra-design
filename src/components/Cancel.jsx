@@ -1,4 +1,5 @@
 import style from "./Cancel.module.css";
+import graphg from '../img/graphorange.png'
 function Cancel() {
   return (
     <div className={style.box}>
@@ -6,12 +7,12 @@ function Cancel() {
         <h2>Canceled</h2>
       </div>
       <div className={style.Numbers}>
-        <img src="" alt=""></img>
+      <img className={style.graphg} src={graphg} alt='graphg' />
         <div>
           <p>03</p>
           <span>Todays</span>
         </div>
-        <span className={style.procentai}>+0.5%</span>
+        <span className={style.procentai}>0.5%</span>
       </div>
     </div>
   );

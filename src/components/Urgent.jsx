@@ -1,4 +1,5 @@
 import style from "./Urgent.module.css";
+import circleg from '../img/circlegreen.png'
 function Urgent() {
   return (
     <div className={style.box}>
@@ -6,7 +7,7 @@ function Urgent() {
         <h2>Urgent Resolve</h2>
       </div>
       <div className={style.Numbers}>
-        <img src="" alt=""></img>
+      <img className={style.circleg} src={circleg} alt='circleg' />
         <div>
           <p>05</p>
           <span>Todays</span>

@@ -18,4 +18,8 @@ h2 {
 }
 .procentai {
     margin: auto;
+    color: lightgreen;
+}
+.graph {
+  margin: auto;
 }
