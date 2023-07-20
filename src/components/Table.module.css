@@ -1,0 +1,35 @@
+.Table{
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+  gap: 30px;
+  background-color: white;
+  
+  
+}
+
+.gridtable {
+  display: grid;
+}
+
+.grid-table th,
+.grid-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.grid-table th {
+  background-color: #f2f2f2;
+}
+
+.grid-table button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.grid-table button:hover {
+  background-color: #0056b3;
+}

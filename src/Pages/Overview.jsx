@@ -3,6 +3,7 @@ import Appoint from "../components/Appoint";
 import Consultation from "../components/Consultation";
 import Cancel from "../components/Cancel";
 import Urgent from "../components/Urgent";
+import Table from "../components/Table";
 function Overview() {
   return (
     <div className={style.page}>
@@ -12,7 +13,11 @@ function Overview() {
         <Consultation />
         <Cancel />
         <Urgent />
-      </div>
+        </div>
+        <div className={style.table}>
+          <h1>Todays</h1>
+          <Table/>
+        </div>
     </div>
   );
 }
