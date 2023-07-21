@@ -1,14 +1,12 @@
-import  Overview  from './Pages/Overview';
-import { Aside } from './components/aside/Aside';
+import Overview from "./Pages/Overview";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-  <div className="App">
-    <Overview/>
-    <aside/>
-       </div>
+    <div className="App">
+      <Overview />
+    </div>
   );
 }
 

@@ -1,5 +1,9 @@
 .Table {
- grid-template-columns: auto;
-
   background-color: white;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15% ;
+
 }
