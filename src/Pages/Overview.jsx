@@ -13,11 +13,12 @@ function Overview() {
         <Consultation />
         <Cancel />
         <Urgent />
-        </div>
         <div className={style.table}>
           <h1>Todays</h1>
           <Table/>
         </div>
+        </div>
+      
     </div>
   );
 }

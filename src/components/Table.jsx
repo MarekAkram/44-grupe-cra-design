@@ -1,4 +1,5 @@
 import style from "./Table.module.css";
+
 const Tables = () => {
     const data = [
       {
